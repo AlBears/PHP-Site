@@ -50,9 +50,5 @@ class AuthenticationController extends BaseController
     	header("Location: /login");
     	exit();
     }
-    public function getTestUser()
-    {
-    	dd(LoggedIn::user()->first_name);
-    }
 
 }
