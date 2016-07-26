@@ -26,7 +26,7 @@
 	@yield('content')
 
 </div>
-
+<footer class="footer">
 <div class="row footer-background">
     <div class="col-md-3">
       <div class="padding-left-8px">
@@ -44,6 +44,7 @@
      <img src="/assets/map-small.png" alt="map" class="pull-right">
     </div>
   </div>
+</footer>
 
 
 
