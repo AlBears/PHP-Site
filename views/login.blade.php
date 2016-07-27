@@ -13,6 +13,8 @@
 			<h1>Log in</h1>
 			<hr>
 			<form name="loginform" id="loginform" action="/login" method="post" class="form-horizontal">
+			<input type="hidden" name="_token" value="{!! htmlspecialchars($signer->getSignature()) !!}">
+               
 			<div class="form-group">
 			<label for="email" class="col-sm-2 control-label">Email</label>
 			<div class="col-sm-10">
